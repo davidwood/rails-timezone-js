@@ -158,7 +158,7 @@
   };
 
   var api = {
-    
+
     // Convert from a Rails TimeZone name
     from: function(value) {
       return MAPPING[value];
@@ -169,8 +169,15 @@
       for (var key in MAPPING) {
         if (MAPPING[key] === value) return key;
       }
-    }
-    
+    },
+
+    list: function() {
+      var list = [];
+      for (var key in MAPPING) {
+        list.push(key);
+      }
+      return list;
+    },
   };
 
   if (typeof module !== 'undefined' && Object(module) === module) {
