@@ -11,7 +11,7 @@
   // Keys are Rails TimeZone names, values are TZInfo identifiers.
   // Source: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/values/time_zone.rb
   var MAPPING = {
-    "International Date Line West" : "Pacific/Midway",
+    "International Date Line West" : "Etc/GMT+12",
     "Midway Island"                : "Pacific/Midway",
     "American Samoa"               : "Pacific/Pago_Pago",
     "Hawaii"                       : "Pacific/Honolulu",
@@ -40,7 +40,9 @@
     "Newfoundland"                 : "America/St_Johns",
     "Brasilia"                     : "America/Sao_Paulo",
     "Buenos Aires"                 : "America/Argentina/Buenos_Aires",
+    "Montevideo"                   : "America/Montevideo",
     "Georgetown"                   : "America/Guyana",
+    "Puerto Rico"                  : "America/Puerto_Rico",
     "Greenland"                    : "America/Godthab",
     "Mid-Atlantic"                 : "Atlantic/South_Georgia",
     "Azores"                       : "Atlantic/Azores",
@@ -67,7 +69,8 @@
     "Paris"                        : "Europe/Paris",
     "Amsterdam"                    : "Europe/Amsterdam",
     "Berlin"                       : "Europe/Berlin",
-    "Bern"                         : "Europe/Berlin",
+    "Bern"                         : "Europe/Zurich",
+    "Zurich"                       : "Europe/Zurich",
     "Rome"                         : "Europe/Rome",
     "Stockholm"                    : "Europe/Stockholm",
     "Vienna"                       : "Europe/Vienna",
@@ -86,9 +89,11 @@
     "Jerusalem"                    : "Asia/Jerusalem",
     "Harare"                       : "Africa/Harare",
     "Pretoria"                     : "Africa/Johannesburg",
+    "Kaliningrad"                  : "Europe/Kaliningrad",
     "Moscow"                       : "Europe/Moscow",
     "St. Petersburg"               : "Europe/Moscow",
-    "Volgograd"                    : "Europe/Moscow",
+    "Volgograd"                    : "Europe/Volgograd",
+    "Samara"                       : "Europe/Samara",
     "Kuwait"                       : "Asia/Kuwait",
     "Riyadh"                       : "Asia/Riyadh",
     "Nairobi"                      : "Africa/Nairobi",
@@ -128,7 +133,7 @@
     "Taipei"                       : "Asia/Taipei",
     "Perth"                        : "Australia/Perth",
     "Irkutsk"                      : "Asia/Irkutsk",
-    "Ulaan Bataar"                 : "Asia/Ulaanbaatar",
+    "Ulaanbaatar"                  : "Asia/Ulaanbaatar",
     "Seoul"                        : "Asia/Seoul",
     "Osaka"                        : "Asia/Tokyo",
     "Sapporo"                      : "Asia/Tokyo",
@@ -145,6 +150,7 @@
     "Guam"                         : "Pacific/Guam",
     "Port Moresby"                 : "Pacific/Port_Moresby",
     "Magadan"                      : "Asia/Magadan",
+    "Srednekolymsk"                : "Asia/Srednekolymsk",
     "Solomon Is."                  : "Pacific/Guadalcanal",
     "New Caledonia"                : "Pacific/Noumea",
     "Fiji"                         : "Pacific/Fiji",
@@ -154,6 +160,7 @@
     "Wellington"                   : "Pacific/Auckland",
     "Nuku'alofa"                   : "Pacific/Tongatapu",
     "Tokelau Is."                  : "Pacific/Fakaofo",
+    "Chatham Is."                  : "Pacific/Chatham",
     "Samoa"                        : "Pacific/Apia"
   };
 
