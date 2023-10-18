@@ -78,6 +78,7 @@
 		Cairo: "Africa/Cairo",
 		Helsinki: "Europe/Helsinki",
 		Kyiv: "Europe/Kiev",
+		"Europe/Kyiv": "Europe/Kyiv",
 		Riga: "Europe/Riga",
 		Sofia: "Europe/Sofia",
 		Tallinn: "Europe/Tallinn",
