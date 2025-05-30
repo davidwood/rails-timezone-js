@@ -17,6 +17,11 @@ The library provides two functions:
 
     npm install rails-timezone
 
+    const rails_timezone = require('rails-timezone') # node import
+    
+    rails_timezone.to(javascript_time_zone) # js -> rails
+    javascript_time_zone.from(rails_timezone) # rails -> js
+
 ### Browser
 
 The functions are exposed via `window.RailsTimeZone`
