@@ -1,16 +1,21 @@
 {
   "name": "rails-timezone",
   "description": "Convert between Rails ActiveSupport TimeZone names and the IANA Time Zone Database format for node.js and the browser",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "David Wood <bitprobe@gmail.com>",
   "repository": {
     "type": "git",
     "url": "http://github.com/davidwood/rails-timezone-js.git"
   },
-  "keywords": ["timezone", "rails", "activesupport", "iana", "olsen"],
+  "keywords": [
+    "timezone",
+    "rails",
+    "activesupport",
+    "iana",
+    "olsen"
+  ],
   "main": "./index.js",
   "engines": {
     "node": ">= 0.8.0"
   }
 }
-
